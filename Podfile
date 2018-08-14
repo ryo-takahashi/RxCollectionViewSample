@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'RxCollectionViewSample' do
   pod 'RxDataSources'
+  pod 'R.swift'
 end

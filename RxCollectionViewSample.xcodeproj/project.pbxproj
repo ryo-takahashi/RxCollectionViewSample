@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5A02C2922121AACF00823A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02C2912121AACF00823A88 /* AppDelegate.swift */; };
-		5A02C2942121AACF00823A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02C2932121AACF00823A88 /* ViewController.swift */; };
-		5A02C2972121AACF00823A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A02C2952121AACF00823A88 /* Main.storyboard */; };
+		5A02C2942121AACF00823A88 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02C2932121AACF00823A88 /* TimelineViewController.swift */; };
 		5A02C2992121AAD000823A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A02C2982121AAD000823A88 /* Assets.xcassets */; };
-		5A02C29C2121AAD000823A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A02C29A2121AAD000823A88 /* LaunchScreen.storyboard */; };
+		5A0EDFE12121E42700DEBFDB /* TimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0EDFE02121E42700DEBFDB /* TimelineViewController.xib */; };
+		5A0EDFE42121E7C000DEBFDB /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EDFE32121E7C000DEBFDB /* R.generated.swift */; };
+		5A4D53B92121C5B800A925ED /* TimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D53B82121C5B800A925ED /* TimelineViewModel.swift */; };
+		5A4D53BB2121C5E000A925ED /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D53BA2121C5E000A925ED /* Article.swift */; };
+		5A4D53BD2121C60A00A925ED /* ArticleCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D53BC2121C60A00A925ED /* ArticleCollectionCell.swift */; };
+		5A4D53BF2121C62800A925ED /* ArticleCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D53BE2121C62800A925ED /* ArticleCollectionCell.xib */; };
+		5A9EF1652122BAD300343DF8 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EF1642122BAD300343DF8 /* ArticleDetailViewController.swift */; };
+		5A9EF1672122BB3200343DF8 /* ArticleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9EF1662122BB3200343DF8 /* ArticleDetailViewController.xib */; };
 		DF0284BFCFA27B5BD0E602AD /* Pods_RxCollectionViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022927451BDA03BCE716E2F8 /* Pods_RxCollectionViewSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +26,17 @@
 		2D2894DE0B9AAB27ADA508C8 /* Pods-RxCollectionViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCollectionViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxCollectionViewSample/Pods-RxCollectionViewSample.debug.xcconfig"; sourceTree = "<group>"; };
 		5A02C28E2121AACF00823A88 /* RxCollectionViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCollectionViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A02C2912121AACF00823A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A02C2932121AACF00823A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A02C2962121AACF00823A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A02C2932121AACF00823A88 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		5A02C2982121AAD000823A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A02C29B2121AAD000823A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A02C29D2121AAD000823A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0EDFE02121E42700DEBFDB /* TimelineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineViewController.xib; sourceTree = "<group>"; };
+		5A0EDFE32121E7C000DEBFDB /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = RxCollectionViewSample/source/R.generated.swift; sourceTree = SOURCE_ROOT; };
+		5A4D53B82121C5B800A925ED /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewModel.swift; sourceTree = "<group>"; };
+		5A4D53BA2121C5E000A925ED /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		5A4D53BC2121C60A00A925ED /* ArticleCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCollectionCell.swift; sourceTree = "<group>"; };
+		5A4D53BE2121C62800A925ED /* ArticleCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCollectionCell.xib; sourceTree = "<group>"; };
+		5A9EF1642122BAD300343DF8 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		5A9EF1662122BB3200343DF8 /* ArticleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleDetailViewController.xib; sourceTree = "<group>"; };
 		C0F8D2A3F37A0469A2AB6696 /* Pods-RxCollectionViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCollectionViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxCollectionViewSample/Pods-RxCollectionViewSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,14 +82,36 @@
 		5A02C2902121AACF00823A88 /* RxCollectionViewSample */ = {
 			isa = PBXGroup;
 			children = (
-				5A02C2912121AACF00823A88 /* AppDelegate.swift */,
-				5A02C2932121AACF00823A88 /* ViewController.swift */,
-				5A02C2952121AACF00823A88 /* Main.storyboard */,
-				5A02C2982121AAD000823A88 /* Assets.xcassets */,
-				5A02C29A2121AAD000823A88 /* LaunchScreen.storyboard */,
 				5A02C29D2121AAD000823A88 /* Info.plist */,
+				5A9EF1692122CA0700343DF8 /* source */,
+				5A9EF1682122C9FC00343DF8 /* resource */,
 			);
 			path = RxCollectionViewSample;
+			sourceTree = "<group>";
+		};
+		5A9EF1682122C9FC00343DF8 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5A9EF1662122BB3200343DF8 /* ArticleDetailViewController.xib */,
+				5A4D53BE2121C62800A925ED /* ArticleCollectionCell.xib */,
+				5A0EDFE02121E42700DEBFDB /* TimelineViewController.xib */,
+				5A02C2982121AAD000823A88 /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		5A9EF1692122CA0700343DF8 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				5A02C2912121AACF00823A88 /* AppDelegate.swift */,
+				5A4D53BA2121C5E000A925ED /* Article.swift */,
+				5A02C2932121AACF00823A88 /* TimelineViewController.swift */,
+				5A4D53B82121C5B800A925ED /* TimelineViewModel.swift */,
+				5A9EF1642122BAD300343DF8 /* ArticleDetailViewController.swift */,
+				5A4D53BC2121C60A00A925ED /* ArticleCollectionCell.swift */,
+				5A0EDFE32121E7C000DEBFDB /* R.generated.swift */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 		5DCA4717F20A7924277A223A /* Frameworks */ = {
@@ -96,6 +130,7 @@
 			buildConfigurationList = 5A02C2A02121AAD000823A88 /* Build configuration list for PBXNativeTarget "RxCollectionViewSample" */;
 			buildPhases = (
 				61F2CD985D31FF30CE843637 /* [CP] Check Pods Manifest.lock */,
+				5A0EDFE22121E77A00DEBFDB /* ShellScript */,
 				5A02C28A2121AACF00823A88 /* Sources */,
 				5A02C28B2121AACF00823A88 /* Frameworks */,
 				5A02C28C2121AACF00823A88 /* Resources */,
@@ -116,6 +151,9 @@
 		5A02C2862121AACF00823A88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					ArticleCollectionCell,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = k0uhashi;
@@ -148,9 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A02C29C2121AAD000823A88 /* LaunchScreen.storyboard in Resources */,
+				5A0EDFE12121E42700DEBFDB /* TimelineViewController.xib in Resources */,
 				5A02C2992121AAD000823A88 /* Assets.xcassets in Resources */,
-				5A02C2972121AACF00823A88 /* Main.storyboard in Resources */,
+				5A9EF1672122BB3200343DF8 /* ArticleDetailViewController.xib in Resources */,
+				5A4D53BF2121C62800A925ED /* ArticleCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +204,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxCollectionViewSample/Pods-RxCollectionViewSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -172,6 +212,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -180,6 +221,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCollectionViewSample/Pods-RxCollectionViewSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		5A0EDFE22121E77A00DEBFDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
 		};
 		61F2CD985D31FF30CE843637 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -206,31 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A02C2942121AACF00823A88 /* ViewController.swift in Sources */,
+				5A4D53BB2121C5E000A925ED /* Article.swift in Sources */,
+				5A02C2942121AACF00823A88 /* TimelineViewController.swift in Sources */,
+				5A4D53BD2121C60A00A925ED /* ArticleCollectionCell.swift in Sources */,
+				5A9EF1652122BAD300343DF8 /* ArticleDetailViewController.swift in Sources */,
+				5A4D53B92121C5B800A925ED /* TimelineViewModel.swift in Sources */,
 				5A02C2922121AACF00823A88 /* AppDelegate.swift in Sources */,
+				5A0EDFE42121E7C000DEBFDB /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5A02C2952121AACF00823A88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A02C2962121AACF00823A88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5A02C29A2121AAD000823A88 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A02C29B2121AAD000823A88 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A02C29E2121AAD000823A88 /* Debug */ = {
@@ -355,7 +395,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PHSZKL64F;
 				INFOPLIST_FILE = RxCollectionViewSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.k0uhashi.RxCollectionViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -371,7 +414,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PHSZKL64F;
 				INFOPLIST_FILE = RxCollectionViewSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.k0uhashi.RxCollectionViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
