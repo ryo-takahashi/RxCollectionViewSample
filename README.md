@@ -1,0 +1,5 @@
+# getting started
+
+```
+pod install
+```
